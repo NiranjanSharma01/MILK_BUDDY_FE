@@ -57,9 +57,9 @@ const MilkmanDetail = ({ navigation }) => {
       } else {
         const source = { uri: response.uri };
         setSelectedImage(source);
-      }
-    });
-  };
+  }
+});
+};
 
 
   const addInputField = () => {
